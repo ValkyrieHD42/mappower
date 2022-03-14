@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {Borne} from "../model/borne";
 import MarkerClusterGroup from "react-leaflet-markercluster/src/react-leaflet-markercluster";
 import {Card} from "react-bootstrap";
+import RoutingAdd from "./Routing";
 
 //             <ReactLeafletGoogleLayer apiKey='AIzaSyDhU1OMeX7iqtSXd4I0IvgQYuax7cji7Jk' />
 
@@ -59,6 +60,7 @@ function Map() {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <BornesCluster />
+            <RoutingAdd></RoutingAdd>
         </MapContainer>
     );
 }

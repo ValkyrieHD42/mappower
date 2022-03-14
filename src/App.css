@@ -3,7 +3,7 @@
 }
 
 #wrapper.toggled #sidebar-wrapper {
-  width: 250px;
+  width: 360px;
 }
 
 #wrapper {
@@ -16,22 +16,22 @@
   box-shadow: -4px 0px 15px -9px #000000;
 }
 #wrapper.hide {
-  padding-left: 250px;
+  padding-left: 360px;
 }
 
 .hide {
-  transform: translateX(300px);
+  transform: translateX(410px);
 }
 
 .toggled {
-  width: 250px;
+  width: 360px;
   margin-left: 0!important;
 }
 
 .button-toggle {
   margin-top: 20px;
   position: absolute;
-  right: 290px;
+  right: 400px;
   z-index: 2!important;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -40,7 +40,7 @@
 }
 
 .button-toggle-hide {
-  transform: translateX(250px);
+  transform: translateX(360px);
 }
 body {
   overflow: hidden;
